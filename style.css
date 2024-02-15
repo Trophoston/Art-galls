@@ -43,7 +43,7 @@ body {
     }
 
 .immage{
-    left: 50%;
+    left: 65%;
     bottom: 0;
     transform: translateX(-50%);
     height: 80%;
@@ -63,7 +63,8 @@ body {
 
 @media screen and (max-width: 574px) {
     .immage{
-        height: 375px;
+        height: 300px;
+        left: 50%;
     }
     
 }
