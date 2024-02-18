@@ -43,8 +43,8 @@
         //${artwork.image}
         artworks.forEach((artwork, index) => {
           const cardHtml = `
-            <div class="col-md-4" data-aos="fade-right">
-              <div class="card mb-4 shadow-sm">
+            <div class="col-md-4 " data-aos="fade-right">
+              <div class="card mb-4 shadow-sm" >
                 <img src="./picasso/pic${index+1}.jpg" class="card-img-top modal-image" alt="" id="myImg1"> 
                 <div class="card-body">
                   <p class="card-text">${artwork.artname}</p>
