@@ -1,8 +1,5 @@
     AOS.init();
-
-
-
-
+    
     // Sample artwork data
     const artworks = [
         { 
