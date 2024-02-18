@@ -2,6 +2,18 @@
     font-family: "TBM";
     src: url("IBMPlexSansThai-Medium.ttf");
 }
+@font-face {
+    font-family: "Noto";
+    src: url("NotoSerif.ttf");
+}
+@font-face {
+    font-family: "Petit";
+    src: url("Petit.ttf");
+}
+@font-face {
+    font-family: "kanit";
+    src: url("Kanit-Light.ttf");
+}
 
 .carousel-inner {
     transition: all 0.3s;
@@ -29,11 +41,18 @@ body {
 .jumbotron {
     background: url('https://i2.wp.com/zet.gallery/blog/wp-content/uploads/2016/02/Vicent-Van-Gogh-Starry-Night-Famous-Oil-Paintings-www.shairart.com_.jpg?fit=1280%2C1014') center/cover no-repeat;
     color: #fff;
-    /* text-align: center; */
-
     height: 500px;
     padding: 0;
     }
+
+.basns{
+    display: flex;
+    left: 50%;
+    align-items: center;
+    transform: translateX(-50%);
+    height: 500px;
+    justify-content: center;
+}
 
 .footer {
     background-color: #333;
@@ -43,28 +62,65 @@ body {
     }
 
 .immage{
-    left: 65%;
-    bottom: 0;
-    transform: translateX(-50%);
     height: 80%;
     z-index: 1;
 }
 
 .thatext{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+    width: 481px;
+    text-align: end;
 }
 
-@media screen and (max-width: 574px) {
+.ft-56{
+    font-size: 46px;
+}
+
+.ft-96{
+    font-size: 86px;
+}
+
+.ft-309{
+    font-size: 60px;
+}
+
+.ft-56, .ft-96, .ft-309{
+    text-shadow:0 0 25px white, 0 0 35px black;
+}
+
+
+@media screen and (max-width: 900px) {
     .immage{
-        height: 300px;
+        height: 270px;
         left: 50%;
     }
-    
+    .basns{
+        flex-wrap: wrap;
+        padding-top: 30px;
+        width: 85%;
+        margin: auto;
+        justify-content: center;
+    }
+    .ft-56{
+        font-size: 30px;
+        margin: 0;
+    }
+    .ft-96{
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .ft-309{
+        font-size: 45px;
+        margin: 0;
+    }
+    .thatext{
+        width: auto;
+    }
 }
+
+@media screen and (max-width: 568px) {
+    .thatext{
+        text-align: center;
+    }
+}
+
