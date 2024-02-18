@@ -15,6 +15,10 @@
     src: url("./fonts/Kanit-Light.ttf");
 }
 
+.aos-init[data-aos].aos-animate {
+    transform: unset;
+ }
+
 .carousel-inner {
     transition: all 0.3s;
     border-radius: 10px;
@@ -27,6 +31,7 @@
 body {
     padding-top: 61px;
     font-family: "TBM";
+    overflow-x: hidden
     }
 
 .navbar {
