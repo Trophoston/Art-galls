@@ -1,19 +1,23 @@
 @font-face {
     font-family: "TBM";
-    src: url("IBMPlexSansThai-Medium.ttf");
+    src: url("./fonts/IBMPlexSansThai-Medium.ttf");
 }
 @font-face {
     font-family: "Noto";
-    src: url("NotoSerif.ttf");
+    src: url("./fonts/NotoSerif.ttf");
 }
 @font-face {
     font-family: "Petit";
-    src: url("Petit.ttf");
+    src: url("./fonts/Petit.ttf");
 }
 @font-face {
     font-family: "kanit";
-    src: url("Kanit-Light.ttf");
+    src: url("./fonts/Kanit-Light.ttf");
 }
+
+.aos-init[data-aos].aos-animate {
+    transform: unset;
+ }
 
 .carousel-inner {
     transition: all 0.3s;
