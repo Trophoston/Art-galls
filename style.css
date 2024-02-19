@@ -27,11 +27,24 @@
 }
 
 
+
 /* Custom styles for this template */
+
+html{
+
+    overflow-x: hidden;
+}
+
 body {
     padding-top: 61px;
     font-family: "TBM";
+    overflow-x: hidden;   
     }
+
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .navbar {
     background-color: #333;
@@ -99,10 +112,11 @@ body {
     }
     .basns{
         flex-wrap: wrap;
-        padding-top: 30px;
+        padding-top: 25px;
         width: 85%;
         margin: auto;
         justify-content: center;
+        gap: 0;
     }
     .ft-56{
         font-size: 30px;
