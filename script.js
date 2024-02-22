@@ -1,12 +1,12 @@
     AOS.init();
-    
+       
     // Sample artwork data
     const artworks = [
         { 
-          image: "./picasso/pic2.jpg", 
-          artname: "Artwork 1 description", 
-          artist: "Artist cat meaw" ,
-          description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 
+          image: "./picasso/pic1.jpg", 
+          artname: "Caine & Bubble", 
+          artist: "วาณิชการ ใหม่อารินทร์ เลขที่ 40" ,
+          description: "แนวคิด ได้รับแรงบันตาลใจมาจากคนเมชั่นเรื่อง'The Amazing Digital Cirous' คุณจะได้รู้จักเคน ผู้นำละครสัตว์ และขับเบิ้ลคู่หูของเขา ที่พาคุณไปรู้จักกับเพื่อนใหม่งได้แก่เจ้าซ์ รากาต้ ติงซูเบิล แกงเกิล' และช่วย ผจบภัย และดันหาปริสเดไปกับพวกเขาในโลกแห่งละครสัตว์และการแสดงสุดหัศจรรย์และวุ่นวาย", 
           
         },
   
@@ -19,7 +19,7 @@
         },
   
         { 
-          image: "./picasso/pic2.jpg", 
+          image: "./picasso/pic3.jpg", 
           artname: "Artwork 1 description", 
           artist: "Artist cat meaw" ,
           description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 
@@ -27,13 +27,17 @@
         },
   
         { 
-          image: "./picasso/pic2.jpg", 
+          image: "./picasso/pic4.jpg", 
           artname: "Artwork 1 description", 
           artist: "Artist cat meaw" ,
           description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 
           
         },
+
+        
       ];
+
+      
   
       // Function to dynamically generate artwork cards
       function generateArtworkCards() {
