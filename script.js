@@ -5,7 +5,8 @@
         { 
           image: "./picasso/pic1.jpg", 
           artname: "Caine & Bubble", 
-          artist: "วาณิชการ ใหม่อารินทร์ เลขที่ 40" ,
+          artist: "วาณิชการ ใหม่อารินทร์" ,
+          noumber: "40",
           description: "แนวคิด ได้รับแรงบันตาลใจมาจากคนเมชั่นเรื่อง'The Amazing Digital Cirous' คุณจะได้รู้จักเคน ผู้นำละครสัตว์ และขับเบิ้ลคู่หูของเขา ที่พาคุณไปรู้จักกับเพื่อนใหม่งได้แก่เจ้าซ์ รากาต้ ติงซูเบิล แกงเกิล' และช่วย ผจบภัย และดันหาปริสเดไปกับพวกเขาในโลกแห่งละครสัตว์และการแสดงสุดหัศจรรย์และวุ่นวาย", 
           
         },
@@ -54,6 +55,9 @@
                   <p class="card-text">${artwork.artname}</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted"><b>เจ้าของผลงาน : </b>${artwork.artist}</small>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted"><b>เลขที่ : </b>${artwork.noumber}</small>
                   </div>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted"><b>แนวคิด : </b>${artwork.description}</small>

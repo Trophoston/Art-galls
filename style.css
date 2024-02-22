@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: "kanit";
-    src: url("./fonts/Kanit-Light.ttf");
+    src: url("./fonts/PTSerif-Regular.ttf");
 }
 
 .aos-init[data-aos].aos-animate {
@@ -50,10 +50,10 @@ a{
     background-color: #333;
     }
 
-.navbar-brand,
+/* .navbar-brand,
 .navbar-nav .nav-link {
-    color: #fff;
-    }
+    
+    } */
 
 .jumbotron {
     background: url('https://i2.wp.com/zet.gallery/blog/wp-content/uploads/2016/02/Vicent-Van-Gogh-Starry-Night-Famous-Oil-Paintings-www.shairart.com_.jpg?fit=1280%2C1014') center/cover no-repeat;
