@@ -1,8 +1,11 @@
-    AOS.init();
-       
+  
     // Sample artwork data
     window.addEventListener('load', function () {
         document.body.classList.add('loaded');
+    });
+
+    window.addEventListener('backler', function () {
+        document.body.classList.add('backler');
     });
 
     const toastTrigger = document.getElementById('liveToastBtn')
@@ -14,3 +17,7 @@ if (toastTrigger) {
     toastBootstrap.show()
   })
 }
+
+
+AOS.init();
+
